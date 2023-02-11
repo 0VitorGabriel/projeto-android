@@ -6,7 +6,10 @@
     font-weight: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue-Regular.ttf) format(truetype);
+}
 
 :root {
     --color0: #c5ebd6;
@@ -60,6 +63,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
+    padding-bottom: 30px;
     text-shadow: 2px 2px 0px #0000007e;
 }
 
